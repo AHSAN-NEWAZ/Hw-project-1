@@ -1,0 +1,60 @@
+/*
+Theme  Name: Aytor
+Version: 1.0.0
+Author: Aytor
+Description:
+
+===================
+Table of Content
+-----------------------
+1) Common CSS
+
+*/
+
+/* Common Section Css Start */
+:root{
+    --primary-font:"Josefin Sans", sans-serif;
+    --secondary-font:"Roboto", sans-serif;
+    --primary-dark-color:#FF5645;
+    --primary-light-color:#FF6F61;
+    --primary-3d-color:#151A32;
+    --text-color:#11161E;
+    --common-white:#FFFFFF;
+    --common-black:#000000;
+    --paragraph-color:#444444;
+    --bg-dark-color:#F1F3F4;
+    --bg-light-color:#F1F1F1;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,li,span,small{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    outline: 0;
+}
+body {
+  font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+}
+/* Common Section Css End */
+#banner{
+    padding: 0 80px;
+}
+#banner .banner_slider_item{
+    height:700px;
+   
+    background-size: cover;
+    background-position: center;
+    align-items:center;
+}
